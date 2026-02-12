@@ -1,4 +1,5 @@
-import { useState, ChangeEvent } from "react";
+import { useState } from "react";
+import type { ChangeEvent } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Html, Line } from "@react-three/drei";
 import * as THREE from "three";
@@ -158,7 +159,7 @@ export default function App() {
 
   const dragPlane = new THREE.Plane(new THREE.Vector3(0, 0, 1), 0);
 
-  const shapesMap: Record<NodeType["shape"], JSX.Element> = {
+    const shapesMap: Record<NodeType["shape"], React.ReactNode> = {
     sphere: <sphereGeometry args={[1, 32, 32]} />,
     box: <boxGeometry args={[1, 1, 1]} />,
     dodecahedron: <dodecahedronGeometry args={[1]} />,
