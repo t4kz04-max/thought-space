@@ -51,15 +51,15 @@ Each node can be customized:
 
 ### Main View
 
-![Thought Space Main View](public/images/main-view.png.png)
+![Thought Space Main View](main-view.png.png)
 
 ### Edit Mode
 
-![Thought Space Edit Mode](public/images/edit-mode.png.png)
+![Thought Space Edit Mode](edit-mode.png.png)
 
 ### Knowledge Map
 
-![Knowledge Map](public/images/knowledge-map.png.png)
+![Knowledge Map](knowledge-map.png.png)
 
 
 
