@@ -53,15 +53,15 @@ Each node can be customized:
 
 ### Main View
 
-![Thought Space Main View](スクリーンショット 2026-06-22 004551.png)
+
 
 ### Edit Mode
 
-![Thought Space Edit Mode](スクリーンショット 2026-06-22 005125.png)
+
 
 ### Knowledge Map
 
-![Knowledge Map](スクリーンショット 2026-06-22 003258.png)
+
 
 
 ## Tech Stack
