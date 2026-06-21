@@ -49,18 +49,17 @@ Each node can be customized:
 
 ## Screenshots
 
-## Screenshots
-
 ### Main View
 
-
+![Thought Space Main View](public/images/main-view.png)
 
 ### Edit Mode
 
-
+![Thought Space Edit Mode](public/images/edit-mode.png)
 
 ### Knowledge Map
 
+![Knowledge Map](public/images/knowledge-map.png)
 
 
 
