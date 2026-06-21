@@ -2,65 +2,101 @@
 
 A 3D concept mapping tool for visualizing ideas, knowledge, and relationships.
 
+Demo:
+https://thought-space-5xst.vercel.app/
+
+
 ## Overview
 
 Thought Space is an interactive application that allows users to organize concepts in a 3D space.
 
-Instead of using a traditional 2D mind map, users can place concepts as nodes and connect relationships as edges to create their own thought structures.
+Unlike traditional 2D mind maps, Thought Space represents ideas as nodes and relationships as edges in a three-dimensional environment.
+
+Users can manually place concepts and create their own thought structures.
+
 
 ## Features
 
-- Create and edit concept nodes
-- Connect concepts with relationships
-- Organize ideas spatially in 3D
-- Customize node appearance
-- Save and load graphs as JSON
-- Undo / Redo history system
+### 3D Concept Visualization
 
-## How it works
+Create concepts as nodes and arrange them freely in 3D space.
 
-### Nodes
 
-Nodes represent concepts, ideas, or information.
+### Relationship Mapping
 
-Each node contains:
-- Position
+Connect concepts with edges to represent relationships.
+
+The distance between nodes represents the user's interpretation of conceptual distance.
+
+
+### Node Customization
+
+Each node can be customized:
+
 - Label
 - Description
 - Color
 - Shape
 - Size
 
-### Edges
 
-Edges represent relationships between concepts.
+### Graph Management
 
-Users define the meaning of distance and connections manually.
+- Save graphs as JSON
+- Load previous graphs
+- Undo / Redo history
 
-Example:
 
-- Close nodes → strong relationship
-- Distant nodes → weak relationship
+## Screenshots
+
+(Add screenshots here)
+
 
 ## Tech Stack
 
 Frontend:
+
 - React
 - TypeScript
 - Vite
 
 3D:
+
 - Three.js
 - React Three Fiber
 - React Three Drei
 
-## Demo
 
-(https://thought-space-5xst.vercel.app/)
+## Project Structure
 
-## Future Ideas
+src/
+├── components/
+├── hooks/
+├── utils/
+└── main.tsx
+
+
+
+## Future Development
+
+Possible future features:
 
 - AI-assisted concept generation
-- Importing knowledge from documents
+- Knowledge extraction from documents
 - Automatic concept clustering
-- Collaboration features
+- Collaborative editing
+
+
+## Purpose
+
+Thought Space aims to provide a spatial environment for:
+
+- Thinking
+- Knowledge organization
+- Idea exploration
+- Concept visualization
+
+
+## License
+
+MIT
